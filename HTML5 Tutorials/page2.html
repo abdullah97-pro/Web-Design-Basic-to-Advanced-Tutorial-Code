@@ -12,8 +12,24 @@
             list-style-type: lower-alpha;
         } */
 
-        h1 {
+        /* h1 {
             background-color: blue;
+        } */
+
+        #d1 {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+        }
+
+        .box1 {
+            width: 200px;
+            height: 200px;
+            background-color: gray;
+            margin: 3px;
+        }
+        .box2 {
+            background-color: red;
         }
     </style>
 </head>
@@ -82,11 +98,23 @@ dd -> description definition
     <a href="#">text 2</a> -->
 
     <!-- block -->
-    <div></div>
+    <!-- <div></div> -->
 
     <!-- inline -->
-    <span></span>
+    <!-- <span></span> -->
 
+    <!-- 
+    web page tag naming
+    class name: multiple class name / duplicate name 
+    id name: once and can not take muliptle id name
+    -->
+
+    <div id="d1"></div>
+    <!-- <div id="d1 d2"></div> -->
+
+    <div class="box1"></div>
+    <div class="box1"></div>
+    <div class="box1 box2"></div>
 
 </body>
 </html>
