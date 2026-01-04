@@ -8,29 +8,35 @@
 <body>
     
     <form action="" method="post">
-       <input type="text"> <br>
-       <input type="email"> <br>
+       <input type="text" minlength="3" maxlength="15" required> <br>
+       <input type="email" size="30" placeholder="Enter your email"> <br>
        <input type="checkbox"> <label for="">Bachelor</label>
        <input type="checkbox"> <label for="">Master</label> <br>
        <input type="radio" name="gender"> <label for="">Male</label>
        <input type="radio" name="gender"> <label for="">Female</label> <br>
-       <input type="date"> <br>
+       <input type="text" value="30000" readonly> <br>
+       <input type="date" disabled> <br>
        <input type="datetime-local"> <br>
        <input type="color"> <br>
        <input type="file" multiple> <br>
        <input type="month"> <br>
        <input type="week"> <br>
-       <input type="number"> <br>
+       <input type="number" min="0" max="100" step="5"> <br>
        <input type="hidden"> <br>
        <input type="password"> <br>
        <input type="range"> <br>
        <input type="search"> <br>
-       <input type="tel"> <br>
+       <input type="tel" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" placeholder="078-1234-123" autofocus> <br>
+       <input type="text" pattern="[A-Za-z0-9]{10}" placeholder="Serial Number"> <br>
        <input type="time"> <br>
        <input type="url" value="https://www."> <br>
-       <input type="image" src="./image/1.jpg">
-       <input type="reset"> <br>
-       <input type="submit">
+       <input list="product">
+       <datalist id="product">
+        <option value="mouse">mouse</option>
+       </datalist>
+       <!-- <input type="image" src="./image/1.jpg"> -->
+       <input type="reset" disabled> <br>
+       <input type="submit" value="Save">
     </form>
 
 </body>
