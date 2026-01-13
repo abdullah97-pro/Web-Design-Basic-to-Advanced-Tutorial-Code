@@ -1,16 +1,33 @@
+/* :root {
+    --color-red: rgb(54, 110, 44);
+    --color-1: #0000ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container {
-    width: 300px;
+    background-color: var(--color-red);
+    width: 400px;
     height: 200px;
-    background-color: yellow;
-    /* margin: 10px 30px 50px 80px; */
-    /* margin: top right bottom left; */
-    margin: 50px 100px; /* top-bottom left-right */
-    /* margin: 300px; */
+    padding: 10px 0;
+    border: 3px solid var(--color-1);
+    border-style: ridge;
 }
 
-.container h1 {
-    text-align: center;
-    padding: 50px;
+.box1 {
+    width: 80%;
+    height: 50px;
+    background-color: var(--color-1);
+    margin: auto;
+    border: 1px solid yellow;
+    outline: 3px solid yellowgreen;
+    outline-offset: 5px;
 }
 
-/* comment */
+h1 {
+    color: var(--color-red);
+} */
