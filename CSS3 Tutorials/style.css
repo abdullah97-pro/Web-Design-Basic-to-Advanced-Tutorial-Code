@@ -1,33 +1,23 @@
-/* :root {
-    --color-red: rgb(54, 110, 44);
-    --color-1: #0000ff;
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container {
-    background-color: var(--color-red);
-    width: 400px;
-    height: 200px;
-    padding: 10px 0;
-    border: 3px solid var(--color-1);
-    border-style: ridge;
-}
-
 .box1 {
-    width: 80%;
-    height: 50px;
-    background-color: var(--color-1);
-    margin: auto;
-    border: 1px solid yellow;
-    outline: 3px solid yellowgreen;
-    outline-offset: 5px;
+    width: 600px;
+    height: 200px;
+    background-color: red;
 }
 
-h1 {
-    color: var(--color-red);
-} */
+.box2 {
+    max-width: 600px;
+    height: 200px;
+    background-color: blue;
+}
+
+.box3 {
+    min-width: 600px;
+    height: 200px;
+    background-color: orange;
+}
